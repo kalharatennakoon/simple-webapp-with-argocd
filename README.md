@@ -1,1 +1,1 @@
-# simple-webapp-with-argocd
+# NGINX Web App with ArgoCD
