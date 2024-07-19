@@ -1,9 +1,9 @@
 #! /bin/sh
 
 
-docker stop nginx-app
-docker rm nginx-app
+docker stop nginx-c1
+docker rm nginx-c1
 
-docker rmi simple-webapp-with-argocd:1.0
+docker rmi nginx-app
 
-docker build . -t simple-webapp-with-argocd:1.0
+docker build . -t nginx-app
